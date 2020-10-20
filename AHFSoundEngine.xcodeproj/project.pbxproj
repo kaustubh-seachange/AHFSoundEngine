@@ -1,0 +1,506 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		32AC57B6253EE47B003F8C89 /* AHFSoundEngine.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32AC57AC253EE47A003F8C89 /* AHFSoundEngine.framework */; };
+		32AC57BB253EE47B003F8C89 /* AHFSoundEngineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32AC57BA253EE47B003F8C89 /* AHFSoundEngineTests.swift */; };
+		32AC57BD253EE47B003F8C89 /* AHFSoundEngine.h in Headers */ = {isa = PBXBuildFile; fileRef = 32AC57AF253EE47A003F8C89 /* AHFSoundEngine.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		32AC57C9253EE4C4003F8C89 /* AHFSoundClassifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32AC57C8253EE4C4003F8C89 /* AHFSoundClassifier.swift */; };
+		32AC57CD253EE567003F8C89 /* AHFSoundDetectionFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32AC57CC253EE567003F8C89 /* AHFSoundDetectionFilter.swift */; };
+		32AC57D1253EE57E003F8C89 /* AHFSoundLowPassFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32AC57D0253EE57E003F8C89 /* AHFSoundLowPassFilter.swift */; };
+		32AC57D5253EE592003F8C89 /* AHFSoundButterworthFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32AC57D4253EE592003F8C89 /* AHFSoundButterworthFilter.swift */; };
+		32AC57DB253EE5CD003F8C89 /* AHFSoundUILayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32AC57DA253EE5CD003F8C89 /* AHFSoundUILayer.swift */; };
+		32AC57E1253EE653003F8C89 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 32AC57E0253EE653003F8C89 /* README.md */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		32AC57B7253EE47B003F8C89 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 32AC57A3253EE47A003F8C89 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 32AC57AB253EE47A003F8C89;
+			remoteInfo = AHFSoundEngine;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		32AC57AC253EE47A003F8C89 /* AHFSoundEngine.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AHFSoundEngine.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		32AC57AF253EE47A003F8C89 /* AHFSoundEngine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AHFSoundEngine.h; sourceTree = "<group>"; };
+		32AC57B0253EE47A003F8C89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32AC57B5253EE47B003F8C89 /* AHFSoundEngineTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AHFSoundEngineTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		32AC57BA253EE47B003F8C89 /* AHFSoundEngineTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AHFSoundEngineTests.swift; sourceTree = "<group>"; };
+		32AC57BC253EE47B003F8C89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32AC57C8253EE4C4003F8C89 /* AHFSoundClassifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AHFSoundClassifier.swift; sourceTree = "<group>"; };
+		32AC57CC253EE567003F8C89 /* AHFSoundDetectionFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AHFSoundDetectionFilter.swift; sourceTree = "<group>"; };
+		32AC57D0253EE57E003F8C89 /* AHFSoundLowPassFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AHFSoundLowPassFilter.swift; sourceTree = "<group>"; };
+		32AC57D4253EE592003F8C89 /* AHFSoundButterworthFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AHFSoundButterworthFilter.swift; sourceTree = "<group>"; };
+		32AC57DA253EE5CD003F8C89 /* AHFSoundUILayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AHFSoundUILayer.swift; sourceTree = "<group>"; };
+		32AC57E0253EE653003F8C89 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		32AC57A9253EE47A003F8C89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32AC57B2253EE47B003F8C89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32AC57B6253EE47B003F8C89 /* AHFSoundEngine.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		32AC57A2253EE47A003F8C89 = {
+			isa = PBXGroup;
+			children = (
+				32AC57E0253EE653003F8C89 /* README.md */,
+				32AC57AE253EE47A003F8C89 /* AHFSoundEngine */,
+				32AC57B9253EE47B003F8C89 /* AHFSoundEngineTests */,
+				32AC57AD253EE47A003F8C89 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		32AC57AD253EE47A003F8C89 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				32AC57AC253EE47A003F8C89 /* AHFSoundEngine.framework */,
+				32AC57B5253EE47B003F8C89 /* AHFSoundEngineTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		32AC57AE253EE47A003F8C89 /* AHFSoundEngine */ = {
+			isa = PBXGroup;
+			children = (
+				32AC57AF253EE47A003F8C89 /* AHFSoundEngine.h */,
+				32AC57B0253EE47A003F8C89 /* Info.plist */,
+				32AC57C8253EE4C4003F8C89 /* AHFSoundClassifier.swift */,
+				32AC57CC253EE567003F8C89 /* AHFSoundDetectionFilter.swift */,
+				32AC57D8253EE597003F8C89 /* Filter */,
+				32AC57D9253EE5AA003F8C89 /* EngineUX */,
+			);
+			path = AHFSoundEngine;
+			sourceTree = "<group>";
+		};
+		32AC57B9253EE47B003F8C89 /* AHFSoundEngineTests */ = {
+			isa = PBXGroup;
+			children = (
+				32AC57BA253EE47B003F8C89 /* AHFSoundEngineTests.swift */,
+				32AC57BC253EE47B003F8C89 /* Info.plist */,
+			);
+			path = AHFSoundEngineTests;
+			sourceTree = "<group>";
+		};
+		32AC57D8253EE597003F8C89 /* Filter */ = {
+			isa = PBXGroup;
+			children = (
+				32AC57D0253EE57E003F8C89 /* AHFSoundLowPassFilter.swift */,
+				32AC57D4253EE592003F8C89 /* AHFSoundButterworthFilter.swift */,
+			);
+			path = Filter;
+			sourceTree = "<group>";
+		};
+		32AC57D9253EE5AA003F8C89 /* EngineUX */ = {
+			isa = PBXGroup;
+			children = (
+				32AC57DA253EE5CD003F8C89 /* AHFSoundUILayer.swift */,
+			);
+			path = EngineUX;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		32AC57A7253EE47A003F8C89 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32AC57BD253EE47B003F8C89 /* AHFSoundEngine.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		32AC57AB253EE47A003F8C89 /* AHFSoundEngine */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32AC57C0253EE47B003F8C89 /* Build configuration list for PBXNativeTarget "AHFSoundEngine" */;
+			buildPhases = (
+				32AC57A7253EE47A003F8C89 /* Headers */,
+				32AC57A8253EE47A003F8C89 /* Sources */,
+				32AC57A9253EE47A003F8C89 /* Frameworks */,
+				32AC57AA253EE47A003F8C89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AHFSoundEngine;
+			productName = AHFSoundEngine;
+			productReference = 32AC57AC253EE47A003F8C89 /* AHFSoundEngine.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		32AC57B4253EE47B003F8C89 /* AHFSoundEngineTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32AC57C3253EE47B003F8C89 /* Build configuration list for PBXNativeTarget "AHFSoundEngineTests" */;
+			buildPhases = (
+				32AC57B1253EE47B003F8C89 /* Sources */,
+				32AC57B2253EE47B003F8C89 /* Frameworks */,
+				32AC57B3253EE47B003F8C89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				32AC57B8253EE47B003F8C89 /* PBXTargetDependency */,
+			);
+			name = AHFSoundEngineTests;
+			productName = AHFSoundEngineTests;
+			productReference = 32AC57B5253EE47B003F8C89 /* AHFSoundEngineTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		32AC57A3253EE47A003F8C89 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					32AC57AB253EE47A003F8C89 = {
+						CreatedOnToolsVersion = 12.0.1;
+						LastSwiftMigration = 1200;
+					};
+					32AC57B4253EE47B003F8C89 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 32AC57A6253EE47A003F8C89 /* Build configuration list for PBXProject "AHFSoundEngine" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 32AC57A2253EE47A003F8C89;
+			productRefGroup = 32AC57AD253EE47A003F8C89 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				32AC57AB253EE47A003F8C89 /* AHFSoundEngine */,
+				32AC57B4253EE47B003F8C89 /* AHFSoundEngineTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		32AC57AA253EE47A003F8C89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32AC57E1253EE653003F8C89 /* README.md in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32AC57B3253EE47B003F8C89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		32AC57A8253EE47A003F8C89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32AC57C9253EE4C4003F8C89 /* AHFSoundClassifier.swift in Sources */,
+				32AC57CD253EE567003F8C89 /* AHFSoundDetectionFilter.swift in Sources */,
+				32AC57D5253EE592003F8C89 /* AHFSoundButterworthFilter.swift in Sources */,
+				32AC57DB253EE5CD003F8C89 /* AHFSoundUILayer.swift in Sources */,
+				32AC57D1253EE57E003F8C89 /* AHFSoundLowPassFilter.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32AC57B1253EE47B003F8C89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32AC57BB253EE47B003F8C89 /* AHFSoundEngineTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		32AC57B8253EE47B003F8C89 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 32AC57AB253EE47A003F8C89 /* AHFSoundEngine */;
+			targetProxy = 32AC57B7253EE47B003F8C89 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		32AC57BE253EE47B003F8C89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		32AC57BF253EE47B003F8C89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		32AC57C1253EE47B003F8C89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = AHFSoundEngine/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ahf.soundengine;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		32AC57C2253EE47B003F8C89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = AHFSoundEngine/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ahf.soundengine;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		32AC57C4253EE47B003F8C89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AHFSoundEngineTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ayodh.AHFSoundEngineTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		32AC57C5253EE47B003F8C89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AHFSoundEngineTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ayodh.AHFSoundEngineTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		32AC57A6253EE47A003F8C89 /* Build configuration list for PBXProject "AHFSoundEngine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32AC57BE253EE47B003F8C89 /* Debug */,
+				32AC57BF253EE47B003F8C89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32AC57C0253EE47B003F8C89 /* Build configuration list for PBXNativeTarget "AHFSoundEngine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32AC57C1253EE47B003F8C89 /* Debug */,
+				32AC57C2253EE47B003F8C89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32AC57C3253EE47B003F8C89 /* Build configuration list for PBXNativeTarget "AHFSoundEngineTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32AC57C4253EE47B003F8C89 /* Debug */,
+				32AC57C5253EE47B003F8C89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 32AC57A3253EE47A003F8C89 /* Project object */;
+}
