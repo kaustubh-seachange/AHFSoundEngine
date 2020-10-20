@@ -16,6 +16,7 @@
 		32AC57D5253EE592003F8C89 /* AHFSoundButterworthFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32AC57D4253EE592003F8C89 /* AHFSoundButterworthFilter.swift */; };
 		32AC57DB253EE5CD003F8C89 /* AHFSoundUILayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32AC57DA253EE5CD003F8C89 /* AHFSoundUILayer.swift */; };
 		32AC57E1253EE653003F8C89 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 32AC57E0253EE653003F8C89 /* README.md */; };
+		32AC57EA253EEFC8003F8C89 /* FirstAHFClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 32AC57E9253EEFC8003F8C89 /* FirstAHFClassifier.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +42,7 @@
 		32AC57D4253EE592003F8C89 /* AHFSoundButterworthFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AHFSoundButterworthFilter.swift; sourceTree = "<group>"; };
 		32AC57DA253EE5CD003F8C89 /* AHFSoundUILayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AHFSoundUILayer.swift; sourceTree = "<group>"; };
 		32AC57E0253EE653003F8C89 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		32AC57E9253EEFC8003F8C89 /* FirstAHFClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = FirstAHFClassifier.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,12 +86,13 @@
 		32AC57AE253EE47A003F8C89 /* AHFSoundEngine */ = {
 			isa = PBXGroup;
 			children = (
+				32AC57E8253EEFC8003F8C89 /* Models */,
+				32AC57D8253EE597003F8C89 /* Filter */,
+				32AC57D9253EE5AA003F8C89 /* EngineUX */,
 				32AC57AF253EE47A003F8C89 /* AHFSoundEngine.h */,
 				32AC57B0253EE47A003F8C89 /* Info.plist */,
 				32AC57C8253EE4C4003F8C89 /* AHFSoundClassifier.swift */,
 				32AC57CC253EE567003F8C89 /* AHFSoundDetectionFilter.swift */,
-				32AC57D8253EE597003F8C89 /* Filter */,
-				32AC57D9253EE5AA003F8C89 /* EngineUX */,
 			);
 			path = AHFSoundEngine;
 			sourceTree = "<group>";
@@ -118,6 +121,14 @@
 				32AC57DA253EE5CD003F8C89 /* AHFSoundUILayer.swift */,
 			);
 			path = EngineUX;
+			sourceTree = "<group>";
+		};
+		32AC57E8253EEFC8003F8C89 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				32AC57E9253EEFC8003F8C89 /* FirstAHFClassifier.mlmodel */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -230,6 +241,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32AC57EA253EEFC8003F8C89 /* FirstAHFClassifier.mlmodel in Sources */,
 				32AC57C9253EE4C4003F8C89 /* AHFSoundClassifier.swift in Sources */,
 				32AC57CD253EE567003F8C89 /* AHFSoundDetectionFilter.swift in Sources */,
 				32AC57D5253EE592003F8C89 /* AHFSoundButterworthFilter.swift in Sources */,
@@ -391,7 +403,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = AHFSoundEngine/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -419,7 +431,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = AHFSoundEngine/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
